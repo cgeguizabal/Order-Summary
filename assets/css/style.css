@@ -14,7 +14,7 @@
 body {
   background-image: url(/assets/img/pattern-background-desktop.svg);
   background-size: cover;
-  background-position: center -80px;
+  background-position: center -250px;
   background-repeat: no-repeat;
   background-color: var(--pale-blue);
   font-family: "Red Hat Display", sans-serif;
@@ -160,5 +160,9 @@ header > p {
 @media (max-width: 560px) {
   .main-container {
     grid-template-columns: 375px;
+  }
+  body {
+    background-image: url(/assets/img/pattern-background-mobile.svg);
+    background-position: center -200px;
   }
 }
